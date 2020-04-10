@@ -287,6 +287,7 @@ opacity: 92%;
     transform: translate(-50%,-50%);
     pointer-events: none;
     transition: transform .1s;
+    z-index: 3;
 }
 
 
