@@ -324,6 +324,32 @@ opacity: 92%;
     transition: transform .1s;
     z-index: 3;
 }
+.alert {
+    padding: 10px;
+    background-color: #e4c6c4; 
+    color: rgb(10, 10, 10);
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    height: 10px;
+  }
+  
+  
+  .closebtn {
+    margin-left: 15px;
+    color: gray;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
 
 
 
