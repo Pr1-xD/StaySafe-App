@@ -165,6 +165,14 @@ opacity: 92%;
     padding-top: 75px;
     scale: 1.6;
 }
+#input {
+    height: 20px;
+    width: 200px;
+}
+#submit {
+    background-color:rgb(247, 226, 197);
+    width: 50px;
+}
 
 .t4{
     font-family: 'Red Hat Display', sans-serif;
