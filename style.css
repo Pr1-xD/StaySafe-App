@@ -235,8 +235,39 @@ opacity: 92%;
     text-align: center;
     font-weight: 500;
 }
+.p7 {
+    background-color:#E8E8E8;
+    height: 45vh;
+}
+.t7 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.8em;
+    color:black;
+    margin-top: 85px;
+    text-align: center;
 
-
+}
+.wrap {
+    position: relative;
+}
+.imgt {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: lightgray;
+  text-align: center;
+  
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+ .wrap:hover .imgt {
+    visibility: visible;
+    opacity: 0.95;
+ }
 .footer{
     background-color:black;
     height: 350px;
